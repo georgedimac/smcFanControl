@@ -69,17 +69,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		28AC19B428F7FE7E00EA3507 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = fr; path = fr.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
+		28AC19B528F7FE7E00EA3507 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		28AC19B628F7FE7E00EA3507 /* fr */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fr; path = fr.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		28AC19B728F7FE8100EA3507 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
+		28AC19B828F7FE8100EA3507 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		28AC19B928F7FE8100EA3507 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		28AC19BA28F7FE8300EA3507 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = nl; path = nl.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
+		28AC19BB28F7FE8300EA3507 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		28AC19BC28F7FE8300EA3507 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		28AC19BD28F7FE8A00EA3507 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = es; path = es.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
+		28AC19BE28F7FE8A00EA3507 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		28AC19BF28F7FE8A00EA3507 /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		28AC19C028F7FE8E00EA3507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		28AC19C128F7FE9100EA3507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
+		28AC19C228F7FE9100EA3507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28AC19C328F7FE9100EA3507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		4C65C0201AC83BED006E760F /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
-		4C65C0211AC83BF2006E760F /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		4C65C0221AC83BF7006E760F /* French */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = French; path = French.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
-		89033CA10B80E1DF00FDAF43 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
-		89033D900B80F61E00FDAF43 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = German; path = German.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
 		89148EA115E2543D00A073EE /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
 		89148EA215E2543D00A073EE /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
 		891682780AEBB14F00888535 /* StatusItemWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemWindow.h; sourceTree = "<group>"; };
@@ -94,17 +104,9 @@
 		892A7F440B10B7700041B493 /* MachineDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineDefaults.m; sourceTree = "<group>"; };
 		8932CF2213D0850F008BC447 /* SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemVersion.h; sourceTree = "<group>"; };
 		8932CF2313D08551008BC447 /* SystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemVersion.m; sourceTree = "<group>"; };
-		8932CFF813D08DC4008BC447 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Dutch; path = Dutch.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
-		8932CFF913D08DD7008BC447 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8932CFFA13D08DDF008BC447 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Dutch; path = Dutch.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		893506130B440249001BFBA5 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8935061B0B440264001BFBA5 /* German */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
 		894A465F0ADBD6CF008785F3 /* FanControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FanControl.h; sourceTree = "<group>"; };
 		894A46600ADBD6CF008785F3 /* FanControl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FanControl.m; sourceTree = "<group>"; };
 		894A494A0ADBEEF4008785F3 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		894DC9E20F8AA367006A046F /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Spanish; path = Spanish.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		894DC9E30F8AA36F006A046F /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Spanish; path = Spanish.lproj/F.A.Q.rtf; sourceTree = "<group>"; };
-		894DC9E60F8AA399006A046F /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
 		89559A830BAC338400DBA37E /* smcover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smcover.png; sourceTree = "<group>"; };
 		895BDA390B8F8F42003CD894 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		897753AB1DB3D89D00595411 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -117,8 +119,6 @@
 		89C053BD0ADAB7630037CA16 /* smc.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = smc.h; sourceTree = "<group>"; };
 		89E7D3640ADE819B000F67AB /* Machines.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Machines.plist; sourceTree = "<group>"; };
 		89FE24050B7F4C2B00D2713C /* paypal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = paypal.gif; sourceTree = "<group>"; };
-		89FE24220B7F4CD300D2713C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		89FE24280B7F4CE900D2713C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* smcFanControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smcFanControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -305,22 +305,22 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "smcFanControl" */;
 			compatibilityVersion = "Xcode 13.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
-				Italian,
 				zh_TW,
-				Spanish,
-				Dutch,
-				French,
+				fr,
+				de,
+				nl,
+				ja,
+				es,
+				it,
+				Base,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* FanControl */;
 			projectDirPath = "";
@@ -382,7 +382,7 @@
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				28AC19C228F7FE9100EA3507 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -390,11 +390,11 @@
 		89033CA60B80E1EB00FDAF43 /* F.A.Q.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				89033CA10B80E1DF00FDAF43 /* English */,
-				89033D900B80F61E00FDAF43 /* German */,
-				894DC9E30F8AA36F006A046F /* Spanish */,
-				8932CFF813D08DC4008BC447 /* Dutch */,
-				4C65C0221AC83BF7006E760F /* French */,
+				28AC19B428F7FE7E00EA3507 /* fr */,
+				28AC19B728F7FE8100EA3507 /* de */,
+				28AC19BA28F7FE8300EA3507 /* nl */,
+				28AC19BD28F7FE8A00EA3507 /* es */,
+				28AC19C128F7FE9100EA3507 /* en */,
 			);
 			name = F.A.Q.rtf;
 			sourceTree = "<group>";
@@ -402,11 +402,11 @@
 		893506170B440255001BFBA5 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				893506130B440249001BFBA5 /* English */,
-				8935061B0B440264001BFBA5 /* German */,
-				894DC9E60F8AA399006A046F /* Spanish */,
-				8932CFF913D08DD7008BC447 /* Dutch */,
-				4C65C0201AC83BED006E760F /* French */,
+				28AC19B528F7FE7E00EA3507 /* fr */,
+				28AC19B828F7FE8100EA3507 /* de */,
+				28AC19BB28F7FE8300EA3507 /* nl */,
+				28AC19BE28F7FE8A00EA3507 /* es */,
+				28AC19C328F7FE9100EA3507 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -414,11 +414,11 @@
 		89FE24210B7F4CD300D2713C /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				89FE24220B7F4CD300D2713C /* English */,
-				89FE24280B7F4CE900D2713C /* German */,
-				894DC9E20F8AA367006A046F /* Spanish */,
-				8932CFFA13D08DDF008BC447 /* Dutch */,
-				4C65C0211AC83BF2006E760F /* French */,
+				28AC19B628F7FE7E00EA3507 /* fr */,
+				28AC19B928F7FE8100EA3507 /* de */,
+				28AC19BC28F7FE8300EA3507 /* nl */,
+				28AC19BF28F7FE8A00EA3507 /* es */,
+				28AC19C028F7FE8E00EA3507 /* Base */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -437,6 +437,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -468,6 +469,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -494,6 +496,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					.,
@@ -535,6 +538,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -575,6 +579,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -593,6 +598,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEAD_CODE_STRIPPING = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
