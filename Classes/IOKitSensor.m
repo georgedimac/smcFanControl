@@ -25,8 +25,7 @@
 @implementation IOKitSensor
 
 static BOOL isSOCSensor(CFStringRef sensorName) {
-    return CFStringHasPrefix(sensorName, CFSTR("PMU")) &&
-    !CFStringHasSuffix(sensorName, CFSTR("tcal")); // Ignore "PMU tcal" as it seems static
+    return CFStringHasPrefix(sensorName, CFSTR("PMGR"));
 }
 
 static float toOneDecimalPlace(float value) {
