@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28397F4F293B2290007E2CE9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894A494A0ADBEEF4008785F3 /* IOKit.framework */; };
 		89033CA70B80E1EB00FDAF43 /* F.A.Q.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 89033CA60B80E1EB00FDAF43 /* F.A.Q.rtf */; };
 		89148EA315E2543D00A073EE /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 89148EA115E2543D00A073EE /* NSFileManager+DirectoryLocations.m */; };
 		8916827A0AEBB14F00888535 /* StatusItemWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 891682790AEBB14F00888535 /* StatusItemWindow.m */; };
 		891683E90AEBD95B00888535 /* smcWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 891683E80AEBD95B00888535 /* smcWrapper.m */; };
 		8917FB860ADEECAD00443DA1 /* paypal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8917FB850ADEECAD00443DA1 /* paypal.gif */; };
 		891DEF110B40736D001A7C32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891DEF100B40736D001A7C32 /* WebKit.framework */; };
-		8924ECFD15AC98380031730C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8924ECFC15AC98380031730C /* IOKit.framework */; };
 		8924ECFE15AC98880031730C /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = 89C053BC0ADAB7630037CA16 /* smc.c */; };
 		892A7F450B10B7700041B493 /* MachineDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 892A7F440B10B7700041B493 /* MachineDefaults.m */; };
 		8932CF2413D08551008BC447 /* SystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8932CF2313D08551008BC447 /* SystemVersion.m */; };
@@ -100,7 +100,6 @@
 		8917FB850ADEECAD00443DA1 /* paypal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = paypal.gif; sourceTree = "<group>"; };
 		891DEF100B40736D001A7C32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		8924ECEE15AC96E70031730C /* smc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smc; sourceTree = BUILT_PRODUCTS_DIR; };
-		8924ECFC15AC98380031730C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 		892A7F430B10B7700041B493 /* MachineDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineDefaults.h; sourceTree = "<group>"; };
 		892A7F440B10B7700041B493 /* MachineDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineDefaults.m; sourceTree = "<group>"; };
 		8932CF2213D0850F008BC447 /* SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemVersion.h; sourceTree = "<group>"; };
@@ -131,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8924ECFD15AC98380031730C /* IOKit.framework in Frameworks */,
+				28397F4F293B2290007E2CE9 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +185,6 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8924ECFC15AC98380031730C /* IOKit.framework */,
 				891DEF100B40736D001A7C32 /* WebKit.framework */,
 				8985F1580ADD0B5500F9EC46 /* Security.framework */,
 				894A494A0ADBEEF4008785F3 /* IOKit.framework */,
